@@ -4,17 +4,15 @@ A capstone project for face mask detection using CNN.
 
 
 <p align="Left">
-<img src="graphics/t-banner2.jpg" width="800" height="200">
+<img src="images/header.png" width="1000" height="200">
 </p>
-Hang Yin 
-[Github](https://github.com/yinhang945) | [Linked in](https://www.linkedin.com/in/hang-yin-/) | 
-<a href = "mailto: hy439@cornell.edu">Email</a> 
+
 
 # Are you wearing a face mask today? 
 ## A convolutional neural network solution to determine if a person is wearing a mask or not.
 
 ## Introduction 
-Masks play a crucial role in protecting the health of individuals against respiratory diseases, as is one of the few precautions available for COVID-19 in the absence of immunization. With this dataset, it is possible to create a model to detect whether people are wearing masks or not. 
+Masks play a crucial role in protecting the health of individuals against respiratory diseases, as is one of the few precautions available for COVID-19 in the absence of immunization. We are going to construct a CNN model to detect if a person is wearing mask or not. 
 
 ## Why we need to wear face masks during COVID-19 pandemic
 According to CDC Guidance:
@@ -22,17 +20,15 @@ According to CDC Guidance:
 *Masks offer some protection to you and are also meant to protect those around you, in case you are unknowingly infected with the virus that causes COVID-19.
 *A mask is NOT a substitute for social distancing. Masks should still be worn in addition to staying at least 6 feet apart.
 
-<a href="http://www.vegetablefacts.net/vegetable-facts/tomato-facts/">vegetablefacts.net</a>
-
-## Goal
-Accurately classify a given image from a dataset into different disease categories or a healthy leaf.
-
 <p align="center">
-<img src="graphics/tomato_leaves.png" width="850" height="450">
+<img src="images/why_wear_mask.png" width="800" height="1000">
 </p>
 
+## Goal
+Accurately classify whether the person on a given image is wearing a face mask or not.
+
 ## Dataset
-My dataset was a little imbalanced. Total images = 12,814
+The dataset contains 1006 images of human faces wearing or not wearing face masks. It has been divided into the training, validation and testing set with two labels: mask and no mask. Each label contains equal number of images for training, validation and testing set.
 
 <a href="https://github.com/spMohanty/PlantVillage-Dataset/tree/master/raw/color">
 <p align="center">
