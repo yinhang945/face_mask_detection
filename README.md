@@ -7,7 +7,7 @@ A capstone project for face mask detection using CNN.
 <img src="graphics/t-banner2.jpg" width="800" height="200">
 </p>
 Hang Yin 
-[Github](https://github.com/yinhang945) | [Linked in](https://https://www.linkedin.com/in/hang-yin-/) | 
+[Github](https://github.com/yinhang945) | [Linked in](https://www.linkedin.com/in/hang-yin-/) | 
 <a href = "mailto: hy439@cornell.edu">Email</a> 
 
 # Are you wearing a face mask today? 
