@@ -30,21 +30,23 @@ Accurately classify whether the person on a given image is wearing a face mask o
 ## Dataset
 The dataset contains 1006 images of human faces wearing or not wearing face masks. It has been divided into the training, validation and testing set with two labels: mask and no mask. Each label contains equal number of images for training, validation and testing set.
 
-<a href="https://github.com/spMohanty/PlantVillage-Dataset/tree/master/raw/color">
 <p align="center">
-<img src="graphics/pie_chart.png" width="800" height="450">
+<img src="images/dataset_preview.png" width="500" height="500">
 </a>
 
+## Data Augmentation
+Before I start building the model, I used data aggumentation to create new data based on the modifications of our existing training data. It will help to prevent from overtraining, and have a better chance to predict accurately for data that my model hasn't seen yet.
+
 ## Model Framework
-I used a keras Sequential model with 9 layers
+I build a Convolutional Neural Network with several hidden layers and dropouts, since CNN is one of the best algorithm for image processing and analyzing.
 
 <p align="left">
-<img src="graphics/model.png" width="200" height="400">
+<img src="images/model.png" width="200" height="400">
 </p>
 
 ## Results
 
-* My train set ran with **96% accuracy**
+* My train set ran with **94% accuracy**
 * My validation set ran with **93% accuracy**
 * My holdout set ran with **92% accuracy**
 
@@ -55,8 +57,8 @@ I used a keras Sequential model with 9 layers
 <img src="graphics/training-results.png" width="400" height="100">
 </p>
                                                                 
-### Confusion Matrix
+### Evaluate Performance of the Model
 
 <p align="center">
-<img src="graphics/confusion-matrix.png" width="850" height="700">
+<img src="images/detection.png" width="850" height="700">
 </p>
