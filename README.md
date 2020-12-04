@@ -15,7 +15,9 @@ A capstone project for face mask detection using CNN.
 Masks play a crucial role in protecting the health of individuals against respiratory diseases, as is one of the few precautions available for COVID-19 in the absence of immunization. We are going to construct a CNN model to detect if a person is wearing mask or not. 
 
 ## Why we need to wear face masks during COVID-19 pandemic
+
 According to CDC Guidance:
+
 *People age 2 and older should wear masks in public settings and when around people who don’t live in their household.​
 *Masks offer some protection to you and are also meant to protect those around you, in case you are unknowingly infected with the virus that causes COVID-19.
 *A mask is NOT a substitute for social distancing. Masks should still be worn in addition to staying at least 6 feet apart.
