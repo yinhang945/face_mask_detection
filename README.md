@@ -2,7 +2,6 @@
 A capstone project for face mask detection using CNN.
 
 
-
 <p align="Left">
 <img src="images/header.png" width="1000" height="200">
 </p>
