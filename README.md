@@ -59,7 +59,7 @@ I build a Convolutional Neural Network with several hidden layers and dropouts, 
 <img src="img/accuracy.png" width="350" height="350">
 </p>
 <p align="left">
-<img src="img/loss.png" width="400" height="100">
+<img src="img/loss.png" width="400" height="400">
 </p>
                                                                 
 ### Evaluate Performance of the Model
