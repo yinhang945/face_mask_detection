@@ -52,10 +52,10 @@ I build a Convolutional Neural Network with several hidden layers and dropouts, 
 * My holdout set ran with **92% accuracy**
 
 <p align="left">
-<img src="img/training-test-accuracy.png" width="350" height="350">
+<img src="img/accuracy.png" width="350" height="350">
 </p>
 <p align="left">
-<img src="img/training-results.png" width="400" height="100">
+<img src="img/loss.png" width="400" height="100">
 </p>
                                                                 
 ### Evaluate Performance of the Model
