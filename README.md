@@ -38,6 +38,10 @@ The dataset contains 1006 images of human faces wearing or not wearing face mask
 ## Data Augmentation
 Before I start building the model, I used data aggumentation to create new data based on the modifications of our existing training data. It will help to prevent from overtraining, and have a better chance to predict accurately for data that my model hasn't seen yet.
 
+<p align="center">
+<img src="img/data_augmentation.png" width="500" height="500">
+</a>
+
 ## Model Framework
 I build a Convolutional Neural Network with several hidden layers and dropouts, since CNN is one of the best algorithm for image processing and analyzing.
 
@@ -63,3 +67,5 @@ I build a Convolutional Neural Network with several hidden layers and dropouts, 
 <p align="center">
 <img src="img/testing.png" width="850" height="700">
 </p>
+
+It looks like the model has some difficulity detecting a person not wearing a mask in dark background. Potential solution will be train the model with more no mask pictures with dark background/shadow.
