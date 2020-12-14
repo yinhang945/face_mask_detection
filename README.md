@@ -61,5 +61,5 @@ I build a Convolutional Neural Network with several hidden layers and dropouts, 
 ### Evaluate Performance of the Model
 
 <p align="center">
-<img src="img/detection.png" width="850" height="700">
+<img src="img/testing.png" width="850" height="700">
 </p>
