@@ -39,7 +39,7 @@ The dataset contains 1006 images of human faces wearing or not wearing face mask
 Before I start building the model, I used data aggumentation to create new data based on the modifications of our existing training data. It will help to prevent from overtraining, and have a better chance to predict accurately for data that my model hasn't seen yet.
 
 <p align="center">
-<img src="img/data_augmentation.png" width="500" height="500">
+<img src="img/data_augmentation.png" width="800" height="400">
 </a>
 
 ## Model Framework
